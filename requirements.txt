@@ -1,2 +1,10 @@
 pandas
 seaborn
+numpy
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+xgboost
+shap
+joblib
