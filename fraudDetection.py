@@ -8,4 +8,7 @@ df = pd.read_csv("transactions.csv")
 #get missing values
 # print("\n Missing values\n", df.isnull().sum())
 
+
+df = df.drop(columns=["TransactionID", "AccountID", "DeviceID", "MerchantID", "IP Address"])
+
 print("\n Dataset Info. \n", df.info())
